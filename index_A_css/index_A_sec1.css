@@ -1,0 +1,217 @@
+@font-face {
+    font-family: KozMinPro-Medium;
+    src: url('../KozMinPro-Medium_font/KozMinPro-Medium.otf');
+  }
+
+#Middle_section1 {
+    width: 100%;
+    padding: 0 8.333333333vw 50px 8.333333333vw;
+    background-color: #6F4F55;
+    margin-top: -6vw;
+}
+#Middle_section1_920{
+    width: 100%;
+    padding: 80px 8.333333333vw 50px 8.333333333vw;
+    background-color: #6F4F55;
+    margin-top: -6vw;
+    display: none;
+}
+
+#Middle_section1_container {
+    display: flex;
+    width: 100%;
+}
+
+#M_sec1_left {
+    width: 50%;
+    height: 100%;
+}
+
+#M_sec1_left>img {
+    width: 100%;
+}
+
+#M_sec1_right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#M_sec1_right_img>img{
+    display: none;
+}
+#M_sec1_right_fontvon {
+    height: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+.M_sec1_right_font1,
+.M_sec1_right_font2 {
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #ECDECC;
+}
+
+.M_sec1_right_font1:nth-child(1) {
+    font-size: 28px;
+    font-family: 'Microsoft JhengHei';
+    margin-bottom: 3vw;
+}
+
+.M_sec1_right_font1:nth-child(2) {
+    font-size: 1vw;
+    font-family: 'Microsoft JhengHei';
+    margin-bottom: 0.781vw;
+}
+
+.M_sec1_right_font1:nth-child(3) {
+    font-size: 1vw;
+    font-family: 'Microsoft JhengHei';
+    margin-bottom: 3.125vw;
+}
+
+.M_sec1_right_font2 {
+    font-size: 15px;
+    font-family: 'Microsoft JhengHei';
+    position: absolute;
+    bottom: 50px;
+}
+
+.M_sec1_right_font2::before {
+    position: absolute;
+    content: '———';
+    left: -5px;
+}
+@media(max-width:1420px){
+    #M_sec1_left {
+        width: 45%;
+    }
+    
+    #M_sec1_right {
+        width: 55%;
+        height: auto;
+    }
+
+    #M_sec1_right_img>img{
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 5.5vw;
+        display: block;
+    }
+    #M_sec1_right_fontvon {
+        height: auto;
+        position: static;
+        top: 0;
+    }
+    .M_sec1_right_font1, .M_sec1_right_font2 {
+        padding: 0 0 0 20px;
+    }
+    .M_sec1_right_font1:nth-child(1) {
+        font-size: 2.1vw;
+        margin-bottom: 2vw;
+    }
+    
+    .M_sec1_right_font1:nth-child(2) {
+        font-size: 1vw;
+        font-family: 'Microsoft JhengHei';
+        margin-bottom: 2vw;
+    }
+    
+    .M_sec1_right_font1:nth-child(3) {
+        font-size: 1vw;
+        font-family: 'Microsoft JhengHei';
+        margin-bottom: 0;
+    }
+    .M_sec1_right_font2 {
+        bottom: 35px;
+    }
+    .M_sec1_right_font2::before {
+        content: '____';
+        left: -15px;
+    }
+    #middle_con_bg {
+        margin-bottom: 1.3vw;
+    }
+    #middle_con>span {
+        font-size: 1.4vw;
+        line-height: 1.2;
+    }
+}
+@media(max-width:920px){
+    #Middle_section1 {
+        display: none;
+    }
+    #Middle_section1_920{
+        display: block;
+    }
+    #middle_flowercon {
+        width: 5vw;
+        top: 30vw;
+        left: 35vw;
+    }
+    #M_sec1_left{
+        width: 75%;
+        margin: auto;
+    }
+    .M_sec1_right_font2 {
+        position: static;
+        padding: 0;
+    }
+    .M_sec1_right_font2 span{
+        margin: auto;
+    }
+
+    #Middle_allsection_bg1 {
+        margin-top: -12vw;
+    }
+    #middle_con {
+        width: 35vw;
+        top: 7vw;
+    }
+    #middle_con>span {
+        font-size: 2.1vw;
+        font-family: 'KozMinPro-Medium';
+        color: #698D76;
+        line-height: 1.2;
+    }
+    .M_sec1_right_font2::before {
+        display: none;
+    }
+    .M_sec1_right_font1:nth-child(1) {
+        font-size: 3.2vw;
+        padding: 0;
+    }
+    .M_sec1_right_font1:nth-child(1)::after {
+        margin-left: 20px;
+        content: url(../index_A_img/a01-13.svg);
+        width: 5vw;
+    }
+    .M_sec1_right_font1:nth-child(2) {
+        font-size: 2vw;
+        padding: 0;
+    }
+    .M_sec1_right_font1:nth-child(3) {
+        font-size: 2vw;
+        padding: 0;
+    }
+}
+@media(max-width:420px){
+    #middle_con>span {
+         font-size: 12px;
+         overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+    }
+    #Middle_section1_920 {
+        width: 100%;
+        padding: 40px 8.333333333vw 50px 8.333333333vw;
+
+    }
+}
