@@ -1,0 +1,74 @@
+@font-face {
+    font-family: KozMinPro-Medium;
+    src: url('../KozMinPro-Medium_font/KozMinPro-Medium.otf');
+  }
+#left {
+    width: 20%;
+    max-width: 384px; 
+    height: 100vh;
+    position: fixed;
+}
+
+.left-content {
+    width: 100%;
+    height: 100%;
+    background-image: url('../index_A_img/c01-25.svg');
+    padding: 5% 5%;
+
+}
+
+.followus {
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    margin: 290px 0 20px 0;
+}
+
+.followus-2 {
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    margin: 0 0 20px 0;
+}
+
+.followicon-group {
+    width: 20px;
+}
+
+.followicon {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+}
+
+.followicon:nth-child(1) {
+    background-image: url('../index_A_img/c01-06.svg');
+}
+
+.followicon:nth-child(2) {
+    background-image: url('../index_A_img/c01-07.svg');
+}
+
+.followicon:nth-child(3) {
+    background-image: url('../index_A_img/c01-08.svg');
+}
+
+.followicon:nth-child(4) {
+    background-image: url('../index_A_img/c01-09.svg');
+}
+
+.bookingicon-box {
+    width: 26%;
+    height: 21.2%;
+    margin-left: 33%;
+    margin-top: 103px;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.bookingicon-box:hover {
+    opacity: 0.5;
+}
+@media(max-width:920px){
+    #left {
+        display: none;
+    }
+}
