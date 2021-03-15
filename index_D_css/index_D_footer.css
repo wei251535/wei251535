@@ -1,0 +1,137 @@
+@font-face {
+    font-family: KozMinPro-Medium;
+    src: url('../KozMinPro-Medium_font/KozMinPro-Medium.otf');
+  }
+#footer{
+    width: 100%;
+    background-color: #487557;
+    padding:50px 0 55px 0;
+}
+#container_footer{
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#container_logo{
+    width: 360px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 45px;
+    background-image: url('../index_img/logo-white.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#footer_fontcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container_footerleft{
+    width: 460px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: initial;
+}
+
+
+#container_footerright{
+    width: 320px;
+    border-left: 1px solid white;
+    padding-left: 7vw;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+span.footer_font1{
+    font-size: 23px;
+    font-family: 'KozMinPro-Medium';
+    color: #FFFFFF;
+}
+
+span.footer_font2{
+    font-size: 12px;
+    font-family: 'KozMinPro-Medium';
+    color: #FFFFFF;
+}
+
+#footer_c{
+    width: 290px;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'KozMinPro-Medium';
+    color: #FFFFFF;
+}
+#container_footerright>a:hover .footer_font2{
+    color: rgb(235, 196, 138);
+}
+@media(max-width:1420px){
+    #container_footer{
+        max-width: 90%;
+    }
+    #container_footerright>a{
+        font-size: 15px;
+    }
+}
+@media(max-width:920px){
+    #footer{
+        width: 100%;
+        padding: 50px 0 50px 0;
+    }
+    #container_footer{
+        max-width: 90%;
+    }
+    #container_logo{
+        width: 100%;
+        background-size: contain;
+    }
+    #container_footer {
+        margin-bottom: 50px;
+    }
+    #container_footerleft{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-right: 0px;
+    }
+    #container_footerright{
+        width: 45%;
+        border-left: 1px solid white;
+        padding-left: 9.7vw;
+        margin-left: 5.4vw;
+    }
+
+    #container_footerright>a{
+        display: block;
+        font-size: 15px;
+    }
+}
+@media(max-width:420px){
+    #footer{
+        padding: 50px 0 30px 0;
+    }
+    span.footer_font2 {
+        font-size: 12px;
+        font-family: 'KozMinPro-Medium';
+        color: #FFFFFF;
+    }
+    #container_logo {
+        margin-bottom: 25px;
+    }
+    #container_footerleft {
+        padding-right: 15px;
+    }
+    #container_footerright {
+        padding-left: 5vw;
+    }
+    #container_footer {
+        margin-bottom: 30px;
+    }
+}
